@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+import { ArrowRight } from "lucide-react";
+
 const HeroSection = () => {
   const imageRef = useRef(null);
 
@@ -63,7 +65,11 @@ const HeroSection = () => {
             />
           </div>
         </div>
+
+        
       </div>
+
+      
     </section>
   );
 };
