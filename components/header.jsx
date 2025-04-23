@@ -25,7 +25,7 @@ export default async function Header() {
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/https://talha-portfolio-woad.vercel.app/">
+        <a href="https://talha-portfolio-woad.vercel.app/" target="_blank" rel="noopener noreferrer">
           <Image
             src="/logo.png"
             alt="Logo"
@@ -37,10 +37,10 @@ export default async function Header() {
               paddingBottom: '4px',
               width: 'auto',
               objectFit: 'contain',
-              borderRadius: '12px'  // Rounded corners
+              borderRadius: '12px' // Rounded corners
             }}
           />
-        </Link>
+        </a>
 
         {/* Action Buttons */}
         <div className="flex items-center space-x-2 md:space-x-4">
